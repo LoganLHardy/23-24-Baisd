@@ -1,5 +1,17 @@
 public class test {
     public static void main (String[] args){
-        System.out.println("Hello there");
+        /*  Classes
+        Spacecraft - fuel/inventory - Rocket editor
+            |
+        Astronauts - astronaut editor - secure astronaut info
+                                            |
+                    password database - password verifier - admin password
+                                            |
+                                        Interface/gui
+                                            |
+            Fuel calculations - Launch - ascent/descent - landing/crash
+
+        Save/load function
+        */
     }
 }
