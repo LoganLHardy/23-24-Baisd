@@ -1,4 +1,4 @@
-public class test {
+public class project {
     public static void main (String[] args){
         /*  Classes
         Spacecraft - fuel/inventory - Rocket editor
