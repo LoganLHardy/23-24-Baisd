@@ -12,9 +12,9 @@ public class project {
             Fuel calculations - Launch - ascent/descent - landing/crash
 
         Save/load function
-        */
 
-       /*  rocket calculations basics/guide
+
+        rocket calculations basics/guide
         countdown reach 0 launch for set # of sec based on fuel amount 
 
         1lb fuel in 1 sec increase speed by 30m per sec 
