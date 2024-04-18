@@ -22,7 +22,7 @@ public class project {
         2lb in 2 sec increase by 60m per sec
 
         out of fuel falling 
-        astronauts EVA for 5 minutes
+        astronauts EVA/EAV for 5 minutes
         speed reduce by 9.81m per sec 
         then gain speed 9.81m per sec until reach atmosphere
         burn if faster than 3,000m per sec in atmosphere
