@@ -1,4 +1,4 @@
-public class launch {
+public class calculations {
 
     /* rocket calculations basics/guide
         countdown reach 0 launch for set # of sec based on fuel amount 
