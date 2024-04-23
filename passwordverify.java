@@ -1,4 +1,4 @@
-public class passwordverify {
+public class PasswordVerify {
     /* verify passswords
     user inputs some kind of key
     

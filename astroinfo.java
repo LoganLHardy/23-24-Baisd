@@ -1,3 +1,3 @@
-public class astroinfo {
+public class AstroInfo {
     // secure stored astronaut info
 }

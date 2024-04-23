@@ -1,4 +1,4 @@
-public class spacecrafteditor {
+public class SpacecraftEditor {
     /* edit spacecraft
     add and remove ships
 
