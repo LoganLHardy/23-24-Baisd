@@ -1,15 +1,15 @@
 public class Astronaut {
 
     public String name;
-    private int birthdate;
-    int serial;
-    String address;
-    String email;
-    int phone;
-    double payrate;
-    double weight;
-    String nextkin;
-    String status;
+    public int birthdate;
+    public int serial;
+    public String address;
+    public String email;
+    public int phone;
+    public double payrate;
+    public double weight;
+    public String nextkin;
+    public String status;
 
     /* public String getName() {
         return name;

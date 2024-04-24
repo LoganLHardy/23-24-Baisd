@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class Project {
     public static void main (String[] args) {
+        
+    Scanner keyboard = new Scanner(System.in);
 
     String[] astronauts;
     String[] spacecraft;
