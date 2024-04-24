@@ -1,7 +1,7 @@
 public class Astronaut {
 
-    String name;
-    int birthdate;
+    public String name;
+    private int birthdate;
     int serial;
     String address;
     String email;
@@ -10,5 +10,14 @@ public class Astronaut {
     double weight;
     String nextkin;
     String status;
+
+    /* public String getName() {
+        return name;
+    }
+
+    public void setName(String name)
+    {
+        name.indexOf(0,1) + "/" + 
+    } */
 
 }
