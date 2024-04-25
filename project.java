@@ -11,12 +11,17 @@ public class Project {
     Astronaut astro = new Astronaut();
     Spacecraft craft = new Spacecraft();
 
+        System.out.println("Welcome to the universal space program");
+        System.out.println("Please write down this password");
+        System.out.println(password);
+        System.out.println("Enter your password to confirm it");
+        input = keyboard.nextLine();
+
     while(menuChoice != 5) {
         System.out.println("Welcome to the universal space program");
-        System.out.println("Write down this password");
-        System.out.println(password);
-        System.out.println("Enter your password");
+        System.out.println("Please enter your password");
         input = keyboard.nextLine();
+
         System.out.println("Please select one of these options");
         System.out.println("1. Access astronaut information");
         System.out.println("2. Add or Remove an astronaut");
@@ -193,17 +198,6 @@ public class Project {
         }
     }
     
-
-    astro.name = 
-    astro.birthdate = 
-    astro.serial = 
-    astro.address = 
-    astro.email = 
-    astro.phone = 
-    astro.payrate = 
-    astro.weight = 
-    astro.nextkin = 
-    astro.status = 
     
     /*astro.setBirthdate("01012001");
     01/01/2001 */
