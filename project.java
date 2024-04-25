@@ -11,7 +11,7 @@ public class Project {
     Astronaut astro = new Astronaut();
     Spacecraft craft = new Spacecraft();
 
-    while(!choice == 5) {
+    while(!menuChoice == 5) {
         System.out.println("Welcome to the universal space program");
         System.out.println("Write down this password");
         System.out.println(password);
@@ -23,11 +23,11 @@ public class Project {
         System.out.println("3. Edit astronaut information");
         System.out.println("4. Start launch process");
         System.out.println("5. Exit the program");
-        choice = keyboard.nextInt();
+        menuChoice = keyboard.nextInt();
 
     }
 
-    if(choice == 1) {
+    if(menuChoice == 1) {
         while(!choice == 11) {
             System.out.println("Please choose which information you want to see");
             System.out.println("1. Astronaut name");
@@ -45,7 +45,7 @@ public class Project {
         }
     }
 
-    if(choice == 2) {
+    if(menuChoice == 2) {
         while(!choice == 3) {
             System.out.println("Please choose whether you want to add or remove an astronaut");
             System.out.println("1. Add a new astronaut");
@@ -55,7 +55,7 @@ public class Project {
         }
     }
 
-    if(choice == 3) {
+    if(menuChoice == 3) {
         while(!choice == 11) {
             System.out.println("Please choose which information you want to edit");
             System.out.println("1. Astronaut name");
@@ -73,7 +73,7 @@ public class Project {
         }
     }
 
-    if(choice == 4) {
+    if(menuChoice == 4) {
         while(!choice == 2) {
             System.out.println("Would you like to begin the launch sequence?");
             System.out.println("1. Yes");
@@ -82,9 +82,15 @@ public class Project {
         }
     }
 
-    if(choice == 5) {
-        System.out.println("Thank you for being a part of the universal space program and have a nice day!");
-        System.exit(0);
+    if(menuChoice == 5) {
+        System.out.println("Are you sure you would like to log out and exit?");
+        System.out.println("1. Yes");
+        System.out.println("2. No");
+        choice == keyboard.nextInt();
+            if(choice == 1) {
+                System.out.println("Thank you for being a part of the universal space program and have a nice day!");
+                System.exit(0);
+            }
     }
 
     astro.name = 
