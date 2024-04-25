@@ -11,7 +11,7 @@ public class Project {
     Astronaut astro = new Astronaut();
     Spacecraft craft = new Spacecraft();
 
-    while(!menuChoice == 5) {
+    while(menuChoice != 5) {
         System.out.println("Welcome to the universal space program");
         System.out.println("Write down this password");
         System.out.println(password);
@@ -25,73 +25,160 @@ public class Project {
         System.out.println("5. Exit the program");
         menuChoice = keyboard.nextInt();
 
-    }
+        if(menuChoice == 1) {
+            while(choice != 11) {
+                System.out.println("Please choose which information you want to see");
+                System.out.println("1. Astronaut name");
+                System.out.println("2. Date of birth");
+                System.out.println("3. Serial number");
+                System.out.println("4. Physical address");
+                System.out.println("5. Email address");
+                System.out.println("6. Phone number");
+                System.out.println("7. Pay rate");
+                System.out.println("8. Weight");
+                System.out.println("9. Next of kin");
+                System.out.println("10. Status");
+                System.out.println("11. Return to main menu");
+                choice = keyboard.nextInt();
 
-    if(menuChoice == 1) {
-        while(!choice == 11) {
-            System.out.println("Please choose which information you want to see");
-            System.out.println("1. Astronaut name");
-            System.out.println("2. Date of birth");
-            System.out.println("3. Serial number");
-            System.out.println("4. Physical address");
-            System.out.println("5. Email address");
-            System.out.println("6. Phone number");
-            System.out.println("7. Pay rate");
-            System.out.println("8. Weight");
-            System.out.println("9. Next of kin");
-            System.out.println("10. Status");
-            System.out.println("11. Return to main menu");
-            choice = keyboard.nextInt();
-        }
-    }
-
-    if(menuChoice == 2) {
-        while(!choice == 3) {
-            System.out.println("Please choose whether you want to add or remove an astronaut");
-            System.out.println("1. Add a new astronaut");
-            System.out.println("2. Remove an existing astronaut");
-            System.out.println("3. Return to main menu");
-            choice = keyboard.nextInt();
-        }
-    }
-
-    if(menuChoice == 3) {
-        while(!choice == 11) {
-            System.out.println("Please choose which information you want to edit");
-            System.out.println("1. Astronaut name");
-            System.out.println("2. Date of birth");
-            System.out.println("3. Serial number");
-            System.out.println("4. Physical address");
-            System.out.println("5. Email address");
-            System.out.println("6. Phone number");
-            System.out.println("7. Pay rate");
-            System.out.println("8. Weight");
-            System.out.println("9. Next of kin");
-            System.out.println("10. Status");
-            System.out.println("11. Return to main menu");
-            choice = keyboard.nextInt();
-        }
-    }
-
-    if(menuChoice == 4) {
-        while(!choice == 2) {
-            System.out.println("Would you like to begin the launch sequence?");
-            System.out.println("1. Yes");
-            System.out.println("2. No, return to main menu");
-            choice = keyboard.nextInt();
-        }
-    }
-
-    if(menuChoice == 5) {
-        System.out.println("Are you sure you would like to log out and exit?");
-        System.out.println("1. Yes");
-        System.out.println("2. No");
-        choice == keyboard.nextInt();
-            if(choice == 1) {
-                System.out.println("Thank you for being a part of the universal space program and have a nice day!");
-                System.exit(0);
+                if(choice == 1) {
+                    System.out.println();
+                }
+                if(choice == 2) {
+                    System.out.println();
+                }
+                if(choice == 3) {
+                    System.out.println();
+                }
+                if(choice == 4) {
+                    System.out.println();
+                }
+                if(choice == 5) {
+                    System.out.println();
+                }
+                if(choice == 6) {
+                    System.out.println();
+                }
+                if(choice == 7) {
+                    System.out.println();
+                }
+                if(choice == 8) {
+                    System.out.println();
+                }
+                if(choice == 9) {
+                    System.out.println();
+                }
+                if(choice == 10) {
+                    System.out.println();
+                }
+                if(choice == 11) {
+                    break;
+                }
             }
+        }
+
+        if(menuChoice == 2) {
+            while(choice != 3) {
+                System.out.println("Please choose whether you want to add or remove an astronaut");
+                System.out.println("1. Add a new astronaut");
+                System.out.println("2. Remove an existing astronaut");
+                System.out.println("3. Return to main menu");
+                choice = keyboard.nextInt();
+                if(choice == 1) {
+                    System.out.println();
+                }
+                if(choice == 2) {
+                    System.out.println();
+                }
+                if(choice == 3) {
+                    break;
+                }
+            }
+        }
+
+        if(menuChoice == 3) {
+            while(choice != 11) {
+                System.out.println("Please choose which information you want to edit");
+                System.out.println("1. Astronaut name");
+                System.out.println("2. Date of birth");
+                System.out.println("3. Serial number");
+                System.out.println("4. Physical address");
+                System.out.println("5. Email address");
+                System.out.println("6. Phone number");
+                System.out.println("7. Pay rate");
+                System.out.println("8. Weight");
+                System.out.println("9. Next of kin");
+                System.out.println("10. Status");
+                System.out.println("11. Return to main menu");
+                choice = keyboard.nextInt();
+                if(choice == 1) {
+                    System.out.println();
+                }
+                if(choice == 2) {
+                    System.out.println();
+                }
+                if(choice == 3) {
+                    System.out.println();
+                }
+                if(choice == 4) {
+                    System.out.println();
+                }
+                if(choice == 5) {
+                    System.out.println();
+                }
+                if(choice == 6) {
+                    System.out.println();
+                }
+                if(choice == 7) {
+                    System.out.println();
+                }
+                if(choice == 8) {
+                    System.out.println();
+                }
+                if(choice == 9) {
+                    System.out.println();
+                }
+                if(choice == 10) {
+                    System.out.println();
+                }
+                if(choice == 11) {
+                    break;
+                }
+            }
+        }
+
+        if(menuChoice == 4) {
+            while(choice != 2) {
+                System.out.println("Would you like to begin the launch sequence?");
+                System.out.println("1. Yes");
+                System.out.println("2. No, return to main menu");
+                choice = keyboard.nextInt();
+                if(choice == 1) {
+                    System.out.println();
+                }
+                if(choice == 2) {
+                    break;
+                }
+            }
+        }
+
+        if(menuChoice == 5) {
+            while(choice != 2) {
+                System.out.println("Are you sure you would like to log out and exit?");
+                System.out.println("1. Yes");
+                System.out.println("2. No, return to the main menu");
+                choice == keyboard.nextInt();
+                if(choice == 1) {
+                    System.out.println("Thank you for being a part of the universal space program and have a nice day!");
+                    System.exit(0);
+                }
+                if(choice == 2) {
+                    break;
+                }
+            }
+        }
     }
+    
 
     astro.name = 
     astro.birthdate = 
