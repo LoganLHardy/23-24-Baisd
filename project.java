@@ -42,34 +42,34 @@ public class Project {
                 choice = keyboard.nextInt();
 
                 if(choice == 1) {
-                    System.out.println();
+                    System.out.println(astro.name);
                 }
                 if(choice == 2) {
-                    System.out.println();
+                    System.out.println(astro.birthDate);
                 }
                 if(choice == 3) {
-                    System.out.println();
+                    System.out.println(astro.serial);
                 }
                 if(choice == 4) {
-                    System.out.println();
+                    System.out.println(astro.address);
                 }
                 if(choice == 5) {
-                    System.out.println();
+                    System.out.println(astro.email);
                 }
                 if(choice == 6) {
-                    System.out.println();
+                    System.out.println(astro.phone);
                 }
                 if(choice == 7) {
-                    System.out.println();
+                    System.out.println(astro.payRate);
                 }
                 if(choice == 8) {
-                    System.out.println();
+                    System.out.println(astro.weight);
                 }
                 if(choice == 9) {
-                    System.out.println();
+                    System.out.println(astro.nextKin);
                 }
                 if(choice == 10) {
-                    System.out.println();
+                    System.out.println(astro.status);
                 }
                 if(choice == 11) {
                     break;
@@ -84,6 +84,7 @@ public class Project {
                 System.out.println("2. Remove an existing astronaut");
                 System.out.println("3. Return to main menu");
                 choice = keyboard.nextInt();
+
                 if(choice == 1) {
                     System.out.println();
                 }
@@ -111,35 +112,46 @@ public class Project {
                 System.out.println("10. Status");
                 System.out.println("11. Return to main menu");
                 choice = keyboard.nextInt();
+
                 if(choice == 1) {
-                    System.out.println();
+                    System.out.println(astro.name);
+                    astro.name = keyboard.nextLine();
                 }
                 if(choice == 2) {
-                    System.out.println();
+                    System.out.println(astro.birthDate);
+                    astro.birthDate = keyboard.nextInt();
                 }
                 if(choice == 3) {
-                    System.out.println();
+                    System.out.println(astro.serial);
+                    astro.serial = keyboard.nextInt();
                 }
                 if(choice == 4) {
-                    System.out.println();
+                    System.out.println(astro.address);
+                    astro.address = keyboard.nextLine();
                 }
                 if(choice == 5) {
-                    System.out.println();
+                    System.out.println(astro.email);
+                    astro.email = keyboard.nextLine();
                 }
                 if(choice == 6) {
-                    System.out.println();
+                    System.out.println(astro.phone);
+                    astro.phone = keyboard.nextInt();
                 }
                 if(choice == 7) {
-                    System.out.println();
+                    System.out.println(astro.payRate);
+                    astro.payRate = keyboard.nextDouble();
                 }
                 if(choice == 8) {
-                    System.out.println();
+                    System.out.println(astro.weight);
+                    astro.weight = keyboard.nextDouble();
                 }
                 if(choice == 9) {
-                    System.out.println();
+                    System.out.println(astro.nextKin);
+                    astro.nextKin = keyboard.nextLine();
                 }
                 if(choice == 10) {
-                    System.out.println();
+                    System.out.println(astro.status);
+                    astro.status = keyboard.nextLine();
                 }
                 if(choice == 11) {
                     break;
@@ -153,6 +165,7 @@ public class Project {
                 System.out.println("1. Yes");
                 System.out.println("2. No, return to main menu");
                 choice = keyboard.nextInt();
+
                 if(choice == 1) {
                     System.out.println();
                 }
@@ -168,6 +181,7 @@ public class Project {
                 System.out.println("1. Yes");
                 System.out.println("2. No, return to the main menu");
                 choice == keyboard.nextInt();
+
                 if(choice == 1) {
                     System.out.println("Thank you for being a part of the universal space program and have a nice day!");
                     System.exit(0);
