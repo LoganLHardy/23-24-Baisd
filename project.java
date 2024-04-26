@@ -5,8 +5,8 @@ public class Project {
         
     Scanner keyboard = new Scanner(System.in);
 
-    String[] astronauts;
-    String[] spacecraft;
+    Astronaut[] astronauts;
+    Spacecraft[] spacecraft;
         
     Astronaut astro = new Astronaut();
     Spacecraft craft = new Spacecraft();
@@ -14,7 +14,7 @@ public class Project {
     /*astro.setBirthdate("01012001");
     01/01/2001 */
 
-    
+
  UserDatabase.createNewUser("username", "password");
 
         boolean isValid = UserDatabase.verifyUser("username", "password");
