@@ -10,7 +10,6 @@ public class Project {
             
         Astronaut astro = new Astronaut();
         Spacecraft craft = new Spacecraft();
-
         Menu main = new Menu();
     
 
