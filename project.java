@@ -10,12 +10,14 @@ public class Project {
         
     Astronaut astro = new Astronaut();
     Spacecraft craft = new Spacecraft();
-
-    astro.name = 
-    astro.birthdate = 
     
     /*astro.setBirthdate("01012001");
     01/01/2001 */
 
+    
+ UserDatabase.createNewUser("username", "password");
+
+        boolean isValid = UserDatabase.verifyUser("username", "password");
+        System.out.println("Is valid login? " + isValid);
     }
 }
