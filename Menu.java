@@ -34,70 +34,67 @@ public class Menu {
                     System.out.println(astronaut);
                     astroChoice = keyboard.nextInt();
 
-                        if(choice == 1) {
+                        if(astroChoice == 1) {
                             break;
                         }
-                        if(choice == ) {
+                        if(astroChoice == ) {
                             System.out.println(astronaut);
                         }
 
-                    while(choice != 11) {
-                        System.out.println("Please choose which information you want to see");
-                        System.out.println("1. Astronaut name");
-                        System.out.println("2. Date of birth");
-                        System.out.println("3. Serial number");
-                        System.out.println("4. Physical address");
-                        System.out.println("5. Email address");
-                        System.out.println("6. Phone number");
-                        System.out.println("7. Pay rate");
-                        System.out.println("8. Weight");
-                        System.out.println("9. Next of kin");
-                        System.out.println("10. Status");
-                        System.out.println("11. Return");
-                        choice = keyboard.nextInt();
+                        while(choice != 11) {
+                            System.out.println("Please choose which information you want to see");
+                            System.out.println("1. Astronaut name");
+                            System.out.println("2. Date of birth");
+                            System.out.println("3. Serial number");
+                            System.out.println("4. Physical address");
+                            System.out.println("5. Email address");
+                            System.out.println("6. Phone number");
+                            System.out.println("7. Pay rate");
+                            System.out.println("8. Weight");
+                            System.out.println("9. Next of kin");
+                            System.out.println("10. Status");
+                            System.out.println("11. Return");
+                            choice = keyboard.nextInt();
 
-                        if(choice == 1) {
-                            System.out.println(astro.name);
+                            if(choice == 1) {
+                                System.out.println(astro.name);
+                            }
+                            if(choice == 2) {
+                                System.out.println(astro.birthDate);
+                                    /*astro.setBirthdate("01012001");
+                                    01/01/2001  */
+                            }
+                            if(choice == 3) {
+                                System.out.println(astro.serial);
+                            }
+                            if(choice == 4) {
+                                System.out.println(astro.address);
+                            }
+                            if(choice == 5) {
+                                System.out.println(astro.email);
+                            }
+                            if(choice == 6) {
+                                System.out.println(astro.phone);
+                            }
+                            if(choice == 7) {
+                                System.out.println(astro.payRate);
+                            }
+                            if(choice == 8) {
+                                System.out.println(astro.weight);
+                            }
+                            if(choice == 9) {
+                                System.out.println(astro.nextKin);
+                            }
+                            if(choice == 10) {
+                                System.out.println(astro.status);
+                            }
+                            if(choice == 11) {
+                                break;
+                            }
                         }
-                        if(choice == 2) {
-                            System.out.println(astro.birthDate);
-                                /*astro.setBirthdate("01012001");
-                                01/01/2001  */
-                        }
-                        if(choice == 3) {
-                            System.out.println(astro.serial);
-                        }
-                        if(choice == 4) {
-                            System.out.println(astro.address);
-                        }
-                        if(choice == 5) {
-                            System.out.println(astro.email);
-                        }
-                        if(choice == 6) {
-                            System.out.println(astro.phone);
-                        }
-                        if(choice == 7) {
-                            System.out.println(astro.payRate);
-                        }
-                        if(choice == 8) {
-                            System.out.println(astro.weight);
-                        }
-                        if(choice == 9) {
-                            System.out.println(astro.nextKin);
-                        }
-                        if(choice == 10) {
-                            System.out.println(astro.status);
-                        }
-                        if(choice == 11) {
-                            break;
-                        }
-                    }
 
-                    if(astroChoice == 1) {
-                        break;
                     }
                 }
-            }
 
             if(menuChoice == 2) {
                 while(choice != 3) {
@@ -114,10 +111,11 @@ public class Menu {
                         System.out.println("Which astronaut would you like to remove");
                         System.out.println("1. Return");
                         System.out.println(astronaut);
-                            if(choice == 1) {
+                        astroChoice = keyboard.nextInt();
+                            if(astroChoice == 1) {
                                 break;
                             }
-                            if(choice == ) {
+                            if(astroChoice == ) {
                                 System.out.println(astronaut);
                             }
                     }
@@ -141,65 +139,65 @@ public class Menu {
                             System.out.println(astronaut);
                         }
 
-                    while(choice != 11) {
-                        System.out.println("Please choose which information you want to edit");
-                        System.out.println("1. Astronaut name");
-                        System.out.println("2. Date of birth");
-                        System.out.println("3. Serial number");
-                        System.out.println("4. Physical address");
-                        System.out.println("5. Email address");
-                        System.out.println("6. Phone number");
-                        System.out.println("7. Pay rate");
-                        System.out.println("8. Weight");
-                        System.out.println("9. Next of kin");
-                        System.out.println("10. Status");
-                        System.out.println("11. Return");
-                        choice = keyboard.nextInt();
+                        while(choice != 11) {
+                            System.out.println("Please choose which information you want to edit");
+                            System.out.println("1. Astronaut name");
+                            System.out.println("2. Date of birth");
+                            System.out.println("3. Serial number");
+                            System.out.println("4. Physical address");
+                            System.out.println("5. Email address");
+                            System.out.println("6. Phone number");
+                            System.out.println("7. Pay rate");
+                            System.out.println("8. Weight");
+                            System.out.println("9. Next of kin");
+                            System.out.println("10. Status");
+                            System.out.println("11. Return");
+                            choice = keyboard.nextInt();
 
-                        if(choice == 1) {
-                            System.out.println(astro.name);
-                            astro.name = keyboard.nextLine();
+                            if(choice == 1) {
+                                System.out.println(astro.name);
+                                astro.name = keyboard.nextLine();
+                            }
+                            if(choice == 2) {
+                                System.out.println(astro.birthDate);
+                                astro.birthDate = keyboard.nextInt();
+                            }
+                            if(choice == 3) {
+                                System.out.println(astro.serial);
+                                astro.serial = keyboard.nextInt();
+                            }
+                            if(choice == 4) {
+                                System.out.println(astro.address);
+                                astro.address = keyboard.nextLine();
+                            }
+                            if(choice == 5) {
+                                System.out.println(astro.email);
+                                astro.email = keyboard.nextLine();
+                            }
+                            if(choice == 6) {
+                                System.out.println(astro.phone);
+                                astro.phone = keyboard.nextInt();
+                            }
+                            if(choice == 7) {
+                                System.out.println(astro.payRate);
+                                astro.payRate = keyboard.nextDouble();
+                            }
+                            if(choice == 8) {
+                                System.out.println(astro.weight);
+                                astro.weight = keyboard.nextDouble();
+                            }
+                            if(choice == 9) {
+                                System.out.println(astro.nextKin);
+                                astro.nextKin = keyboard.nextLine();
+                            }
+                            if(choice == 10) {
+                                System.out.println(astro.status);
+                                astro.status = keyboard.nextLine();
+                            }
+                            if(choice == 11) {
+                                break;
+                            }
                         }
-                        if(choice == 2) {
-                            System.out.println(astro.birthDate);
-                            astro.birthDate = keyboard.nextInt();
-                        }
-                        if(choice == 3) {
-                            System.out.println(astro.serial);
-                            astro.serial = keyboard.nextInt();
-                        }
-                        if(choice == 4) {
-                            System.out.println(astro.address);
-                            astro.address = keyboard.nextLine();
-                        }
-                        if(choice == 5) {
-                            System.out.println(astro.email);
-                            astro.email = keyboard.nextLine();
-                        }
-                        if(choice == 6) {
-                            System.out.println(astro.phone);
-                            astro.phone = keyboard.nextInt();
-                        }
-                        if(choice == 7) {
-                            System.out.println(astro.payRate);
-                            astro.payRate = keyboard.nextDouble();
-                        }
-                        if(choice == 8) {
-                            System.out.println(astro.weight);
-                            astro.weight = keyboard.nextDouble();
-                        }
-                        if(choice == 9) {
-                            System.out.println(astro.nextKin);
-                            astro.nextKin = keyboard.nextLine();
-                        }
-                        if(choice == 10) {
-                            System.out.println(astro.status);
-                            astro.status = keyboard.nextLine();
-                        }
-                        if(choice == 11) {
-                            break;
-                        }
-                    }
                 }
             }
 
@@ -217,27 +215,27 @@ public class Menu {
                             System.out.println(spacecraft);
                         }
 
-                    while(choice != 4) {
-                        System.out.println("Please choose which information you want to see");
-                        System.out.println("1. Spacecraft name");
-                        System.out.println("2. Fuel tank capacity");
-                        System.out.println("3. Fuel level");
-                        System.out.println("4. Return to main menu");
-                        choice = keyboard.nextInt();
+                        while(choice != 4) {
+                            System.out.println("Please choose which information you want to see");
+                            System.out.println("1. Spacecraft name");
+                            System.out.println("2. Fuel tank capacity");
+                            System.out.println("3. Fuel level");
+                            System.out.println("4. Return to main menu");
+                            choice = keyboard.nextInt();
 
-                        if(choice == 1) {
-                            System.out.println(craft.spacecraftName);
+                            if(choice == 1) {
+                                System.out.println(craft.spacecraftName);
+                            }
+                            if(choice == 2) {
+                                System.out.println(craft.fuelTank);
+                            }
+                            if(choice == 3) {
+                                System.out.println(craft.fuelLevel);
+                            }
+                            if(choice == 4) {
+                                break;
+                            }
                         }
-                        if(choice == 2) {
-                            System.out.println(craft.fuelTank);
-                        }
-                        if(choice == 3) {
-                            System.out.println(craft.fuelLevel);
-                        }
-                        if(choice == 4) {
-                            break;
-                        }
-                    }
                 }
             }
 
@@ -284,30 +282,30 @@ public class Menu {
                             System.out.println(spacecraft);
                         }
 
-                    while(choice != 4) {
-                        System.out.println("Please choose which information you want to edit");
-                        System.out.println("1. Spacecraft name");
-                        System.out.println("2. Fuel tank capacity");
-                        System.out.println("3. Fuel level");
-                        System.out.println("4. Return");
-                        choice = keyboard.nextInt();
+                        while(choice != 4) {
+                            System.out.println("Please choose which information you want to edit");
+                            System.out.println("1. Spacecraft name");
+                            System.out.println("2. Fuel tank capacity");
+                            System.out.println("3. Fuel level");
+                            System.out.println("4. Return");
+                            choice = keyboard.nextInt();
 
-                        if(choice == 1) {
-                            System.out.println(craft.spacecraftName);
-                            craft.spacecraftName = keyboard.nextLine();
+                            if(choice == 1) {
+                                System.out.println(craft.spacecraftName);
+                                craft.spacecraftName = keyboard.nextLine();
+                            }
+                            if(choice == 2) {
+                                System.out.println(craft.fuelTank);
+                                craft.fuelTank = keyboard.nextDouble();
+                            }
+                            if(choice == 3) {
+                                System.out.println(craft.fuelLevel);
+                                craft.fuelLevel = keyboard.nextDouble();
+                            }
+                            if(choice == 4) {
+                                break;
+                            }
                         }
-                        if(choice == 2) {
-                            System.out.println(craft.fuelTank);
-                            craft.fuelTank = keyboard.nextDouble();
-                        }
-                        if(choice == 3) {
-                            System.out.println(craft.fuelLevel);
-                            craft.fuelLevel = keyboard.nextDouble();
-                        }
-                        if(choice == 4) {
-                            break;
-                        }
-                    }
                 }
             }
 
