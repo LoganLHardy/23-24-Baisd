@@ -5,7 +5,7 @@ public class Menu {
         Astronaut astro = new Astronaut();
         Spacecraft craft = new Spacecraft();
 
-        System.out.println("Welcome to the universal space program");
+            System.out.println("Welcome to the universal space program");
             System.out.println("Please write down this password");
             System.out.println(password);
             System.out.println("Enter your password to confirm it");
