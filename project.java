@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Project {
     public static void main (String[] args) {
         
-    Scanner keyboard = new Scanner(System.in);
+        Scanner keyboard = new Scanner(System.in);
 
     Astronaut[] astronauts;
     Spacecraft[] spacecraft;
@@ -11,8 +11,6 @@ public class Project {
     Astronaut astro = new Astronaut();
     Spacecraft craft = new Spacecraft();
     
-    /*astro.setBirthdate("01012001");
-    01/01/2001 */
 
 
  UserDatabase.createNewUser("username", "password");
