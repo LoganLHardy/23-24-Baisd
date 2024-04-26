@@ -34,6 +34,13 @@ public class Menu {
                     System.out.println(astronaut);
                     astroChoice = keyboard.nextInt();
 
+                        if(choice == 1) {
+                            break;
+                        }
+                        if(choice == ) {
+                            System.out.println(astronaut);
+                        }
+
                     while(choice != 11) {
                         System.out.println("Please choose which information you want to see");
                         System.out.println("1. Astronaut name");
@@ -127,6 +134,13 @@ public class Menu {
                     System.out.println(astronaut);
                     astroChoice = keyboard.nextInt();
 
+                        if(astroChoice == 1) {
+                            break;
+                        }
+                        if(astroChoice == ) {
+                            System.out.println(astronaut);
+                        }
+
                     while(choice != 11) {
                         System.out.println("Please choose which information you want to edit");
                         System.out.println("1. Astronaut name");
@@ -196,6 +210,13 @@ public class Menu {
                     System.out.println(spacecraft);
                     craftChoice = keyboard.nextInt();
 
+                        if(craftChoice == 1) {
+                            break;
+                        }
+                        if(craftChoice == ) {
+                            System.out.println(spacecraft);
+                        }
+
                     while(choice != 4) {
                         System.out.println("Please choose which information you want to see");
                         System.out.println("1. Spacecraft name");
@@ -235,10 +256,11 @@ public class Menu {
                         System.out.println("Which spacecraft would you like to remove");
                         System.out.println("1. Return");
                         System.out.println(spacecraft);
-                            if(choice == 1) {
+                        craftChoice = keyboard.nextInt();
+                            if(craftChoice == 1) {
                                 break;
                             }
-                            if(choice == ) {
+                            if(craftChoice == ) {
                                 System.out.println(spacecraft);
                             }
                     }
@@ -254,6 +276,13 @@ public class Menu {
                     System.out.println("1. Return to main menu");
                     System.out.println(spacecraft);
                     craftChoice = keyboard.nextInt();
+
+                        if(craftChoice == 1) {
+                            break;
+                        }
+                        if(craftChoice == ) {
+                            System.out.println(spacecraft);
+                        }
 
                     while(choice != 4) {
                         System.out.println("Please choose which information you want to edit");
