@@ -17,7 +17,7 @@ public class Project {
         System.out.println("Enter your password to confirm it");
         input = keyboard.nextLine();
 
-    while(menuChoice != 5) {
+    while(menuChoice != 8) {
         System.out.println("Welcome to the universal space program");
         System.out.println("Please enter your password");
         input = keyboard.nextLine();
@@ -26,8 +26,11 @@ public class Project {
         System.out.println("1. Access astronaut information");
         System.out.println("2. Add or Remove an astronaut");
         System.out.println("3. Edit astronaut information");
-        System.out.println("4. Start launch process");
-        System.out.println("5. Exit the program");
+        System.out.println("4. Access spacecraft information");
+        System.out.println("5. Add or Remove a spacecraft");
+        System.out.println("6. Edit spacecraft information");
+        System.out.println("7. Start launch process");
+        System.out.println("8. Exit the program");
         menuChoice = keyboard.nextInt();
 
         if(menuChoice == 1) {
@@ -51,6 +54,8 @@ public class Project {
                 }
                 if(choice == 2) {
                     System.out.println(astro.birthDate);
+                        /*astro.setBirthdate("01012001");
+                        01/01/2001 */
                 }
                 if(choice == 3) {
                     System.out.println(astro.serial);
@@ -165,6 +170,77 @@ public class Project {
         }
 
         if(menuChoice == 4) {
+            while(choice != 4) {
+                System.out.println("Please choose which information you want to see");
+                System.out.println("1. Spacecraft name");
+                System.out.println("2. Fuel tank capacity");
+                System.out.println("3. Fuel level");
+                System.out.println("4. Return to main menu");
+                choice = keyboard.nextInt();
+
+                if(choice == 1) {
+                    System.out.println(craft.spacecraftName);
+                }
+                if(choice == 2) {
+                    System.out.println(craft.fuelTank);
+                }
+                if(choice == 3) {
+                    System.out.println(craft.fuelLevel);
+                }
+                if(choice == 4) {
+                    break;
+                }
+            }
+        }
+
+        if(menuChoice == 5) {
+            while(choice != 3) {
+                System.out.println("Please choose whether you want to add or remove an astronaut");
+                System.out.println("1. Add a new spacecraft");
+                System.out.println("2. Remove an existing spacecraft");
+                System.out.println("3. Return to main menu");
+                choice = keyboard.nextInt();
+
+                if(choice == 1) {
+                    System.out.println();
+                }
+                if(choice == 2) {
+                    System.out.println();
+                }
+                if(choice == 3) {
+                    break;
+                }
+            }
+        }
+
+        if(menuChoice == 6) {
+            while(choice != 4) {
+                System.out.println("Please choose which information you want to edit");
+                System.out.println("1. Spacecraft name");
+                System.out.println("2. Fuel tank capacity");
+                System.out.println("3. Fuel level");
+                System.out.println("4. Return to main menu");
+                choice = keyboard.nextInt();
+
+                if(choice == 1) {
+                    System.out.println(craft.spacecraftName);
+                    craft.spacecraftName = keyboard.nextLine();
+                }
+                if(choice == 2) {
+                    System.out.println(craft.fuelTank);
+                    craft.fuelTank = keyboard.nextDouble();
+                }
+                if(choice == 3) {
+                    System.out.println(craft.fuelLevel);
+                    craft.fuelLevel = keyboard.nextDouble();
+                }
+                if(choice == 4) {
+                    break;
+                }
+            }
+        }
+
+        if(menuChoice == 7) {
             while(choice != 2) {
                 System.out.println("Would you like to begin the launch sequence?");
                 System.out.println("1. Yes");
@@ -180,7 +256,7 @@ public class Project {
             }
         }
 
-        if(menuChoice == 5) {
+        if(menuChoice == 8) {
             while(choice != 2) {
                 System.out.println("Are you sure you would like to log out and exit?");
                 System.out.println("1. Yes");
@@ -199,8 +275,6 @@ public class Project {
     }
     
     
-    /*astro.setBirthdate("01012001");
-    01/01/2001 */
 
     }
 }
