@@ -4,6 +4,7 @@ public class Menu {
 
         Astronaut astro = new Astronaut();
         Spacecraft craft = new Spacecraft();
+        Countdown timer = new Countdown();
 
             System.out.println("Welcome to the universal space program");
             System.out.println("Please write down this password");
@@ -316,7 +317,7 @@ public void displayMenu() {
                     choice = keyboard.nextInt();
 
                     if(choice == 1) {
-                        //ascent
+                        Countdown.startTimer();
                     }
                     if(choice == 2) {
                         break;

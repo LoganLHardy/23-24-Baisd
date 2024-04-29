@@ -16,7 +16,4 @@ public class Calculations {
         below 10,000m parachutes reduce speed no faster than 7m per sec
         */
 
-
-
-
 }
