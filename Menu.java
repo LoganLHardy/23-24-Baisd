@@ -11,7 +11,6 @@ public class Menu {
             System.out.println("Enter your password to confirm it");
             input = keyboard.nextLine();
 
-
 public void displayMenu() {
         while(menuChoice != 8) {
             System.out.println("Welcome to the universal space program");
@@ -127,7 +126,7 @@ public void displayMenu() {
 
             if(menuChoice == 3) {
                 while(astroChoice != 1) {
-                    System.out.println("Which astronaut would you like see");
+                    System.out.println("Which astronaut would you like edit");
                     System.out.println("1. Return to main menu");
                     System.out.println(astronaut);
                     astroChoice = keyboard.nextInt();
