@@ -11,9 +11,6 @@ public class Astronaut {
     public String nextKin;
     public String status;
 
-    /* public void setName(String name)
-        {
-        name.indexOf(0,1) + "/" + 
-        } */
+    Astronaut[] astronauts;
 
 }

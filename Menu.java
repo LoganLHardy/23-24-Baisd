@@ -11,6 +11,8 @@ public class Menu {
             System.out.println("Enter your password to confirm it");
             input = keyboard.nextLine();
 
+
+public void displayMenu() {
         while(menuChoice != 8) {
             System.out.println("Welcome to the universal space program");
             System.out.println("Please enter your password");
@@ -61,8 +63,6 @@ public class Menu {
                             }
                             if(choice == 2) {
                                 System.out.println(astro.birthDate);
-                                    /*astro.setBirthdate("01012001");
-                                    01/01/2001  */
                             }
                             if(choice == 3) {
                                 System.out.println(astro.serial);
@@ -317,7 +317,7 @@ public class Menu {
                     choice = keyboard.nextInt();
 
                     if(choice == 1) {
-                        
+                        //ascent
                     }
                     if(choice == 2) {
                         break;
@@ -342,5 +342,7 @@ public class Menu {
                 }
             }
         }
+
+    }
 
 }
